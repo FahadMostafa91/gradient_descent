@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # gradient descent without tuning, no epsilon in the gamma = float(np.matmul((x-xprev).T,(d-dprev)))/den**2
 # gamma = float(np.matmul((x-xprev).T,(d-dprev)))/den**2 + epsilon; if we add epsilon then it will tune
-
+# Gradient descent for minimizing a function - Barzilai-Borwein method
 import numpy as np
 
 def Rosenbrock(x):
